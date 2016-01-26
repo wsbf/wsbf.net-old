@@ -1,0 +1,140 @@
+/*
+This file contains css markup for slider on homepage
+*/
+/* 
+    Created on : Jun 25, 2014, 10:58:09 AM
+    Author     : emmanueljohn
+*/
+.slider{
+    background-color: #A0BD2B;
+    border-top: 5px solid #A0BD2B;
+    min-height:355px;
+    padding:0 !important;
+}
+
+.slider-container{
+    /* height:500px; */
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+}
+.rslides .caption{
+    position:absolute;
+    /* bottom: 170px; */
+    top: 280px;
+    right: 30px;
+    max-height: 100px;
+    max-width: 50%;
+    background-color: rgba(0,0,0,.6);
+    color:#FFFFFF;
+    padding:3px 15px 10px 15px;
+    /* z-index: 456 !important; */
+    
+    overflow: hidden;
+}
+
+/*! http://responsiveslides.com v1.54 by @viljamis */
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    max-height: 395px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    max-height: 100%;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+.slider-controls_nav {
+    /* z-index: 423; */
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    top: 0;
+    left: 0;
+    display: block;
+    background: #fff; /* Fix for IE6-9 */
+    opacity: 0;
+    filter: alpha(opacity=1);
+    width: 48%;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 91%;
+}
+.slider-controls_nav.next {
+    left: auto;
+    right: 0;
+}
+.slider a{
+    color:#222;
+}
+.slider-controls_nav:focus{
+    outline: none;
+}
+.slider-controls_tabs {
+    z-index: 30;
+    position:absolute;
+    top:10px;
+    left:25px;
+    list-style-type: none;
+    padding-left:10px;
+    margin-bottom: 1px;
+    /* text-align: center; */
+}
+.slider-controls_tabs li {
+    display: inline;
+    float: none;
+    _float: left;
+    *float: left;
+    margin-right: 6px;
+}
+.slider-controls_tabs a{
+    text-indent: -9999px;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 2px solid #FFFFFF;
+    background: #ccc;
+    background: rgba(0,0,0, .2);
+    display: inline-block;
+    _display: block;
+    *display: block;
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+    box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+    width: 12px;
+    height: 12px;
+}
+
+.slider-controls_here a {
+    background: #A0BD2B;
+}
+.rslides .caption a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.rslides .caption a:hover{
+    color:#FF0000;
+}

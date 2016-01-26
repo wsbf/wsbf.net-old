@@ -1,0 +1,126 @@
+/* 
+    The following source code optimizes the website for various browser
+    sizes.
+
+    Created on : Aug 14, 2014, 9:27:55 PM
+    Author     : emmanuel john
+*/
+
+@media(min-width:320px) and (max-width:480px){
+    .logo-img{
+        width:55%;
+    }
+    .logo-img img{ 
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .navbar-header{
+        padding:0 10px 0 10px;
+    }
+
+    .menuIcon{
+        font-size:1.5em;
+    }
+    .navbar-toggle{
+        margin-top:15px;
+    }
+    .banner {
+        padding-top: 85px;
+    }
+    .content,.banner{
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .rslides{
+        max-height: 349px !important;
+    }
+    .slider{
+        min-height: 200px !important;
+    }
+    .grid2{
+        margin-top:10px;
+    }
+    .padding-reset-small{
+        padding:0;
+    }
+    .items-container{
+        overflow: visible;
+        max-height: none;
+        /* padding-bottom: 40px; */
+    }
+    .footer{
+        padding:30px !important;
+    }
+    .footer-nav-unit{
+        margin-right:15px;
+    }
+    .footer-links li a {
+        line-height: 22px;
+        font-size: 16px;
+    }
+}
+@media(min-width:481px) and (max-width:767px){
+    .logo-img img{
+        width:60%;
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .menuIcon{
+        font-size:2em;
+    }
+    .banner {
+        padding-top: 100px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .logo-img img{
+        width:65%;
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .navbar-default .navbar-collapse{
+        /*        float:none;*/
+    }
+    .nav>li>a {
+        padding: 10px 5px;
+    }
+    nav.menu ul li a, .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    ul.navbar-nav {
+        margin-left: 0;
+    }
+    .listen, .buy {
+        display: none !important;
+    }
+    .listen-small, .buy-small {
+        display: block !important;
+    }
+    .listen-small a, .buy-small a {
+        padding-right:10px !important;
+        padding-left:10px !important;
+        display: block !important;
+    }
+    .buy-small{
+        margin-right: 5px !important;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .nav>li>a {
+        padding: 10px 10px;
+    }
+    nav.menu ul li a, .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    ul.navbar-nav {
+        margin-left: 0;
+    }
+}
+@media (min-width:1200px){
+    .nav>li>a {
+        padding: 10px 15px;
+    }
+}
+
